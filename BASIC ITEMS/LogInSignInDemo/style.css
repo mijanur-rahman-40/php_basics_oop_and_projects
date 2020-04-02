@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+	font-family: arial;
+	font-size: 20px;
+    color: blue;
+    background: url(pic_5.jpg)repeat fixed 0 0 #fff;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+	font-size: 30px;
+	color: #800080;
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+input[type ="text"] {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    padding: 6px;
+    width: 300px;
+    font-size: 17px;
+    color: blue;
+}
+input[type ="password"] {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    padding: 6px;
+    width: 300px;
+    font-size: 17px;
+    color: blue;
+}
+input[type ="submit"] {
+    background: #b7801c;
+    border: 1px solid black;
+    color: green;
+    font-size: 25px;
+    padding: 1px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type ="submit"]:hover {
+        background: #696969;
+        color: white;
+    }
